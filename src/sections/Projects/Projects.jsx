@@ -1,9 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import wanderlust from '../../assets/wanderlust.png';
 import ProjectCard from '../../common/ProjectCard';
+import chess from "../../assets/chess.png"
+import res from "../../assets/res.png"
 
 function Projects() {
   return (
@@ -11,29 +10,27 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={wanderlust}
+          github="https://github.com/ShaikZYaseen/WANDERLUST-PROJECT.git"
+          link="https://wanderlust-project-1-uij9.onrender.com"
+          h3="Wanderlust"
+          p="Hotel stay website"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+        github="https://github.com/ShaikZYaseen/chess.git"
+          src={chess}
+          link="#"
+          h3="Chess"
+          p="online multiplayer game"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+        github="https://github.com/ShaikZYaseen/Restaurent-Backend.git"
+          src={res}
+          link="#"
+          h3="Restaurent"
+          p="server side code"
         />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
-        />
+        
       </div>
     </section>
   );
