@@ -9,7 +9,7 @@ function About() {
         <div className="about-content">
           <h1>About me</h1>
           <img className="img" src={heroImg} alt="pic" />
-          <p>
+          <p className="contentt">
             Hola! Iam Shaik.Yaseen, a full stack web developer and a third-year
             Computer Science student. I specialize in creating dynamic and
             responsive web applications. <br />

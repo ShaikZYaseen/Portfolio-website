@@ -41,7 +41,7 @@ function Hero() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p className={styles.description}>
+        <p className="descc">
          I love mutating states!
         </p>
         <a >
