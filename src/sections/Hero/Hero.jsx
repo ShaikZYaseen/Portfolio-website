@@ -6,6 +6,7 @@ import twitterIcon from '../../assets/twitter-dark.svg';
 import githubIcon from '../../assets/github-dark.svg';
 import linkedinIcon from '../../assets/linkedin-dark.svg';
 import { useTheme } from '../../common/ThemeContext';
+import Resume from "./Resume.pdf"
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -45,7 +46,7 @@ function Hero() {
          I love mutating states!
         </p>
         <a >
-          <button className="hover">Resume</button>
+          <button className={styles.anchorButton}><a href={Resume} className={styles.anchor} target="_blank" > Resume </a></button>
         </a>
       </div>
     </section>
